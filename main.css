@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    max-height: 220px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #182825;
+}
+
+.profile-avatar {
+    margin-top: 30px;
+    max-width: 180px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    margin: 30px 0;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    gap: 30px;
+    list-style: none;
+}
+
+.profile-link {
+    padding: 12px;
+    background-color: #182825;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
